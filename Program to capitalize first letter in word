@@ -1,0 +1,4 @@
+>>> name=input("please enter string: " )
+please enter string: good
+>>> print(name.capitalize())
+Good
