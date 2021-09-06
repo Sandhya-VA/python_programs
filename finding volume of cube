@@ -1,0 +1,7 @@
+>>> import math
+>>> r=25
+>>> print(math.pow(int(25),3))
+15625.0
+>>> v=r*r*r
+>>> print(v)
+15625
