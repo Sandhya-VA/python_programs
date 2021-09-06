@@ -1,0 +1,5 @@
+>>> import math
+>>> r=25
+>>> v=((4/3)*math.pi*math.pow(r,3))
+>>> print(v)
+65449.84694978735
