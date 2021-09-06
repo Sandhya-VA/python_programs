@@ -1,0 +1,8 @@
+>>> import math
+>>> def distCalc(x1,x2,y1,y2):
+...     dist=math.sqrt(math.pow((x2-x1),2)+(math.pow((y2-y1),2)))
+...     return dist
+... ^Z
+
+>>> print("%.6f"%distCalc(3,4,4,3))
+1.414214
