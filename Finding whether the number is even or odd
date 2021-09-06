@@ -1,0 +1,18 @@
+>>> x=int(input("please enter the value:"))
+please enter the value:20
+>>> if(x%2==0):
+...   print("even")
+... else:
+...   print("odd")
+... ^Z
+
+Even
+
+>>> x=31
+>>> if(x%2==0):
+...   print("even")
+... else:
+...   print("odd")
+... ^Z
+
+Odd
