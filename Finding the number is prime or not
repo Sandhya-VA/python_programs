@@ -1,0 +1,35 @@
+>>> num=int(input("please enter the value"))
+please enter the value 20
+>>> count=0
+>>> i=2
+>>> while(i<=num//2):
+...     if(num%i==0):
+...         count=count+1
+...         break
+...     i=i+1
+... ^Z
+>>> if(count==0 and num!=1):
+...      print("is a prime")
+... else:
+...      print("is not prime")
+... ^Z
+
+is not prime
+
+>>> num=int(input("please enter the number"))
+please enter the number 7
+>>> count=0
+>>> i=2
+>>> while(i<=num//2):
+...     if(num%i==0):
+...         count=count+1
+...         break
+...     i=i+1
+... ^Z
+>>> if(count==0 and num!=1):
+...      print("is a prime")
+... else:
+...      print("is not a prime")
+... ^Z
+
+is a prime
