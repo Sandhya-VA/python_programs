@@ -1,0 +1,5 @@
+>>> import os
+>>> path=os.chdir('current directory path')
+>>> import os
+>>> path=os.getcwd()
+>>> print(path)
