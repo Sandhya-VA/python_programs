@@ -1,0 +1,8 @@
+>>> print(days)
+['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+>>> days[0]="sunday"
+>>> print(days)
+['sunday', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+>>> days[1:4]=["monday","tuesday","wednesday"]
+>>> print(days)
+['sunday', 'monday', 'tuesday', 'wednesday', 'thu', 'fri', 'sat']
