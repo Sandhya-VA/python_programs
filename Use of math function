@@ -26,3 +26,4 @@ please enter the value:10
 120
 >>> print(abs(-12.54))
 12.54
+
