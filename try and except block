@@ -1,0 +1,32 @@
+>>> try:
+...     a=10
+...     b=0
+...     c=a/b
+...     print("division possible")
+... except:
+...     print("exception handled\n")
+... ^Z
+
+exception handled
+
+>>> try:
+...    a=10
+...    b=2
+...    c=a/b
+...    print("division possible")
+... except:
+...    print("exception handled\n")
+... ^Z
+
+division possible
+
+>>> try:
+...    a=10
+...    b=0
+...    c=a/b
+...    print("division possible\n")
+... except ZeroDivisionError:
+...    print("exception occured\n")
+... ^Z
+
+exception occured
