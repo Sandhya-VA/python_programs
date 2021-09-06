@@ -1,0 +1,72 @@
+
+>>> def myAddition(x,y):
+...     print("performs addition operation")
+...     return(x+y)
+... ^Z
+
+>>> def mySubtraction(x,y):
+...     print("performs subtraction operation")
+...     return(x-y)
+... ^Z
+
+>>> def myMultiplication(x,y):
+...     print("performs mulitiplication operation")
+...     return(x*y)
+... ^Z
+
+>>> def myDivision(x,y):
+...     print("performs division operation")
+...     return(x/y)
+... ^Z
+
+>>> def MainMenu():
+...     print("1.addition")
+...     print("2.subtraction")
+...     print("4.multiplication")
+...     print("3.division")
+...     ch=int(input("please enter your choice"))
+...     return ch
+... ^Z
+
+
+>>> def calc():
+...     ch=MainMenu()
+...     if ch==1:
+...        result=myAddition(num1,num2)
+...     elif ch==2:
+...        result=mySubtraction(num1,num2)
+...     elif ch==4:
+...        result=myMultiplication(num1,num2)
+...     elif ch==3:
+...        result=myDivision(num1,num2)
+...     print(result)
+... ^Z
+
+>>> num1=int(input("please enter the value"))
+please enter the value 20
+>>> num2=int(input("please enter the value"))
+please enter the value 10
+>>> calc()
+1.addition
+2.subtraction
+4.multiplication
+3.division
+please enter your choice 1
+performs addition operation
+30
+>>> calc()
+1.addition
+2.subtraction
+4.multiplication
+3.division
+please enter your choice 2
+performs subtraction operation
+10
+>>> calc()
+1.addition
+2.subtraction
+4.multiplication
+3.division
+please enter your choice 4
+performs mulitiplication operation
+200
