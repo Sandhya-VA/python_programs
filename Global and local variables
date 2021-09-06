@@ -1,0 +1,28 @@
+>>> x="john"
+>>> def fun():
+...     global x
+...     y="son"
+...     x=x*2
+...     print(x)
+...     print(y)
+... ^Z
+
+>>> print(x)
+john
+>>> fun()
+johnjohn
+son
+>>> print(x)
+Johnjohn
+
+>>> def func():
+...     a=10
+...     print("value of a:",a)
+... ^Z
+
+>>> print(a)
+5
+>>> func()
+value of a: 10
+>>> print(a)
+5
