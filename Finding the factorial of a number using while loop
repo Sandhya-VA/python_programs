@@ -1,0 +1,7 @@
+>>> while i>0:
+...     fact=fact*i
+...     i=i-1
+... ^Z
+
+>>> print(fact)
+30240
