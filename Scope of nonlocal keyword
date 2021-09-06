@@ -1,0 +1,27 @@
+>>> def fun():
+...     x="hai"
+...     def fun2():
+...          nonlocal x
+...          x="how are you"
+...          print("inner:",x)
+...     fun2()
+...     print("outer",x)
+... ^Z
+
+>>> fun()
+inner: how are you
+outer how are you
+
+
+>>> def outer():
+...     x=20
+...     def inner():
+...          global x
+...          x=25
+...          print(x)
+...     print("outer : ",x)
+...     inner()
+... ^Z
+>>> outer()
+outer :  20
+25
