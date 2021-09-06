@@ -1,0 +1,5 @@
+>>> from decimal import Decimal as D
+>>> print(D('0.1')+D('0.2'))
+0.3
+>>> print(D('1.20')*D('2.50'))
+3.0000
