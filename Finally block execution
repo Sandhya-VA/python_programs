@@ -1,0 +1,24 @@
+>>> try:
+...    print("in try block")
+...    raise TypeError
+... except:
+...    print("exception occured")
+... finally:
+...    print("finally block")
+... ^Z
+
+in try block
+exception occured
+finally block
+>>> try:
+...    print("in try block")
+...    raise TypeError
+... except TypeError:
+...    print("exception occured")
+... finally:
+...    print("finally block")
+... ^Z
+
+in try block
+exception occured
+finally block
