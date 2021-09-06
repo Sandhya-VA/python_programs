@@ -1,0 +1,9 @@
+>>> str=input("please enter the string:")
+please the string: Bangalore
+>>> count=0
+>>> for i in str:
+...     count=count+1
+... ^Z
+
+>>> print(count)
+9
