@@ -1,0 +1,10 @@
+>>> x=10
+>>> print(math.pow(int(x),2))
+100.0
+>>> x=input("please enter the value:")
+please enter the value:10
+>>> y=int(x)
+>>> type(y)
+<class 'int'>
+>>> print(math.pow(y,2))
+100.0
