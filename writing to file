@@ -1,0 +1,4 @@
+>>> with open("path of your file location\\python.txt",'w',encoding='utf-8') as f:
+...      f.write("hello how are you\n")
+...      f.write("i hope you are fine\n")
+...      f.close()
