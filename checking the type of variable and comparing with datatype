@@ -1,0 +1,9 @@
+>>> val=100.03
+>>> print(type(val))
+<class 'float'>
+>>> print(isinstance(val,int))
+False
+>>> print(isinstance(val,float))
+True
+>>> print(isinstance(val,complex))
+False
