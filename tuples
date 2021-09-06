@@ -1,0 +1,123 @@
+
+>>> tuple()
+()
+>>> tuple=()
+>>> print(tuple)
+()
+>>> tuple=(1,2,3,4,5)
+>>> print(tuple)
+(1, 2, 3, 4, 5)
+>>> tuple=(10,'hello',20,'good')
+>>> print(tuple)
+(10, 'hello', 20, 'good')
+>>> san=("san",20,"sun","hi")
+>>> print(san)
+('san', 20, 'sun', 'hi')
+>>> type(san)
+<class 'tuple'>
+>>> tuple2=("san",10,[10,20,'hi'],80,90,(-12,"hello","bangalore"))
+>>> print(tuple2)
+('san', 10, [10, 20, 'hi'], 80, 90, (-12, 'hello', 'bangalore'))
+>>> tuple3=10,"employee","employee_id","employee_age"
+>>> print(tuple3)
+(10, 'employee', 'employee_id', 'employee_age')
+>>> type(tuple3)
+<class 'tuple'>
+>>> tuple5="str",10,20,30,"how"
+>>> print(tuple5)
+('str', 10, 20, 30, 'how')
+>>> print(tuple5[1])
+10
+>>> print(tuple5[2])
+20
+>>> print(tuple5[0])
+str
+>>> tuple6=(10,20,"hai","hello",[30,40,50,"gm"],(60,70,"gn"))
+>>> print(tuple6)
+(10, 20, 'hai', 'hello', [30, 40, 50, 'gm'], (60, 70, 'gn'))
+>>> print(tuple6[0])
+10
+
+>>> print(tuple[1][1])
+e
+>>> print(tuple7[1][0])
+10
+>>> print(tuple7[2][3])
+hello
+>>> tuple=('hi','how','are','you')
+>>> print(tuple[1:2])
+('how',)
+>>> print(tuple[0:3]
+... )
+('hi', 'how', 'are')
+>>> print(tuple[:])
+('hi', 'how', 'are', 'you')
+>>> print(tuple[1:]
+... )
+('how', 'are', 'you')
+>>> print(tuple[:3])
+('hi', 'how', 'are')
+>>> print(tuple[:-3])
+('hi',)
+
+>>> print(tuple[-1:-4:-1])
+('you', 'are', 'how')
+
+>>> tuple=('hi','hai','hello')
+>>> print(tuple)
+('hi', 'hai', 'hello')
+
+>>> tuple1=('w','e','l')
+>>> tuple2=('c','o','m','e')
+>>> print(tuple1+tuple2)
+('w', 'e', 'l', 'c', 'o', 'm', 'e')
+
+>>> print(("come",)*3)
+('come', 'come', 'come')
+>>> del tuple
+>>> print(tuple)
+<class 'tuple'>
+
+>>> del tuple1
+>>> print(tuple1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'tuple1' is not defined
+>>> tuple5=('w','e','l','c','o','m','e')
+>>> print(tuple5.count('e'))
+2
+>>> print(tuple5.index('e'))
+1
+>>> print(tuple5.index('c'))
+3
+>>> print(tuple5)
+('w', 'e', 'l', 'c', 'o', 'm', 'e')
+>>> print('o' in tuple5)
+True
+>>> print('e' not in tuple5)
+False
+>>> print('w' in tuple5)
+True
+>>> print('m' in tuple5)
+True
+>>> print('m' not in tuple5)
+False
+>>> tuple5=("hello","good","morning")
+>>> print(tuple5)
+('hello', 'good', 'morning')
+>>> for i in tuple5:
+...       print(i)
+... ^Z
+
+hello
+good
+Morning
+
+>>> print(max(tuple))
+90
+>>> print(min(tuple))
+10
+>>> print(sorted(tuple))
+[10, 20, 40, 50, 60, 80, 90]
+>>> print(len(tuple))
+7
