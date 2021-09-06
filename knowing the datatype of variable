@@ -1,0 +1,3 @@
+>>> val=100
+>>> type(val)
+<class 'int'>
