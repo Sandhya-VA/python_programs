@@ -1,0 +1,17 @@
+>>> str="hello"
+>>> reversedStr=reversed(str)
+>>> print(''.join(reversedStr))
+olleh
+
+>>> str="bangalore"
+>>> print(str[-1::-1]
+... )
+erolagnab
+
+>>> s="hello bangalore"
+>>> for i in range(len(s)-1,-1,-1):
+...     result=result+s[i]
+... ^Z
+
+>>> print(result)
+erolagnab olleh
