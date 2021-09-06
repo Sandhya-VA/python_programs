@@ -1,0 +1,4 @@
+>>> str=input("please enter the string : ")
+please enter the string : hi hello good morning
+>>> print(str.title())
+Hi Hello Good Morning
