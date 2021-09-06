@@ -1,0 +1,7 @@
+>>> with open("file path\\python.txt",'r',encoding='utf-8') as f:
+...      print(f.read())
+...      print(f.tell())
+...      f.seek(0)
+...      print(f.readline())
+...      print(f.readlines())
+...      f.close()
